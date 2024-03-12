@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./output-styles/styles.css">
+  <title>Dine Website</title>
+</head>
+
+<body>
+
+  <!-- header block -->
+  <header class="hero">
+    <div class="hero__img">
+      <picture>
+        <source media="(min-width:64em)" srcset="./starter-code/images/homepage/hero-bg-desktop.jpg">
+        <source media="(min-width:42.37em)" srcset="./starter-code/images/homepage/hero-bg-tablet.jpg">
+        <source media="(min-width:20em)" srcset="./starter-code/images/homepage/hero-bg-mobile.jpg">
+        <img src="./starter-code/images/homepage/hero-bg-mobile.jpg" alt="hero image">
+      </picture>
+    </div>
+    <div class="hero__content">
+      <div class="hero__content__logo">
+        <img src="./starter-code/images/logo.svg" alt="website logo">
+      </div>
+      <div class="hero__content__description">
+        <h1 class="hero__content__description__title">Exquisite dining since 1989</h1>
+        <p class="hero__content__description__para">Experience our seasonal menu in beautiful country surroundings. Eat
+          the freshest produce
+          from
+          the comfort of our farmhouse.
+        </p>
+        <form action="./starter-code/booking.html">
+          <button class="hero__content__description__button" type="submit">Book a table</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- main block -->
+  <section class="main">
+
+    <div class="main__pattern main__pattern--curve-top-right">
+      <img src="./starter-code/images/patterns/pattern-curve-top-left.svg" alt="curved pattern top left">
+    </div>
+    <div class="main__pattern main__pattern--curve-bottom-left">
+      <img src="./starter-code/images/patterns/pattern-curve-bottom-right.svg" alt="curved pattern bottom right">
+    </div>
+
+
+    <div class="main__block main__block--top">
+
+
+      <div class="main__block--top__img">
+        <picture>
+          <source media="(min-width:64em)" srcset="./starter-code/images/homepage/enjoyable-place-desktop.jpg">
+          <source media="(min-width:42.37em)" srcset="./starter-code/images/homepage/enjoyable-place-tablet.jpg">
+          <source media="(min-width:20em)" srcset="./starter-code/images/homepage/enjoyable-place-mobile.jpg">
+          <img src="./starter-code/images/homepage/enjoyable-place-mobile.jpg" alt="place image">
+        </picture>
+      </div>
+      <div class="main__block--top__description">
+        <div class="main__block--top__description__pattern">
+          <svg xmlns="http://www.w3.org/2000/svg" width="71" height="7">
+            <g fill="none" fill-rule="evenodd">
+              <path fill="#9E7F66" d="M15 3h56v1H15z" />
+              <circle cx="3.5" cy="3.5" r="3" stroke="#9E7F66" />
+            </g>
+          </svg>
+        </div>
+        <p class="main__block--top__description__title">Enjoyable place for all the family</p>
+        <p class="main__block--top__description__para">Our relaxed surroundings make dining with us a great experience
+          for everyone.
+          We can even arrange
+          a tour of the farm before your meal.
+        </p>
+      </div>
+
+
+    </div>
+
+    <div class="main__block main__block--bottom">
+      <div class="main__block--bottom__img">
+        <picture>
+          <source media="(min-width:64em)" srcset="./starter-code/images/homepage/locally-sourced-desktop.jpg">
+          <source media="(min-width:42.37em)" srcset="./starter-code/images/homepage/locally-sourced-tablet.jpg">
+          <source media="(min-width:20em)" srcset="./starter-code/images/homepage/locally-sourced-mobile.jpg">
+          <img src="./starter-code/images/homepage/locally-sourced-mobile.jpg" alt="place image">
+        </picture>
+      </div>
+      <div class="main__block--bottom__description">
+        <div class="main__block--bottom__description__pattern">
+          <svg xmlns="http://www.w3.org/2000/svg" width="71" height="7">
+            <g fill="none" fill-rule="evenodd">
+              <path fill="#9E7F66" d="M15 3h56v1H15z" />
+              <circle cx="3.5" cy="3.5" r="3" stroke="#9E7F66" />
+            </g>
+          </svg>
+        </div>
+        <p class="main__block--bottom__description__title">The most locally sourced food</p>
+        <p class="main__block--bottom__description__para">All our ingredients come directly from our farm or local
+          fishery. So you can be sure that you’re
+          eating the freshest, most sustainable food.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- highlights block -->
+
+  <section class="highlights">
+    <div class="highlights__main">
+      <div class="highlights__main__pattern">
+        <svg xmlns="http://www.w3.org/2000/svg" width="71" height="7">
+          <g fill="none" fill-rule="evenodd">
+            <path fill="#9E7F66" d="M15 3h56v1H15z" />
+            <circle cx="3.5" cy="3.5" r="3" stroke="#9E7F66" />
+          </g>
+        </svg>
+      </div>
+      <div class="highlights__main__title">A few highlights from our menu</div>
+      <div class="highlights__main__para">
+        We cater for all dietary requirements, but here’s a glimpse at some of our diner’s favourites.
+        Our menu is revamped every season.
+      </div>
+    </div>
+
+
+    <div class="highlights__item__block">
+      <div class="highlights__item">
+        <div class="highlights__item__img">
+          <picture>
+            <source media="(min-width:42.37em)" srcset="./starter-code/images/homepage/salmon-desktop-tablet.jpg">
+            <source media="(min-width:20em)" srcset="./starter-code/images/homepage/salmon-mobile.jpg">
+            <img src="./starter-code/images/homepage/salmon-mobile.jpg" alt="salmon image">
+          </picture>
+        </div>
+        <div class="highlights__item__description">
+          <p class="highlights__item__description__title">Seared Salmon Fillet</p>
+          <p class="highlights__item__description__para">
+            Our locally sourced salmon served with a refreshing buckwheat summer
+            salad.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="highlights__item">
+        <div class="highlights__item__img">
+          <picture>
+            <source media="(min-width:42.37em)" srcset="./starter-code/images/homepage/beef-desktop-tablet.jpg">
+            <source media="(min-width:20em)" srcset="./starter-code/images/homepage/beef-mobile.jpg">
+            <img src="./starter-code/images/homepage/beef-mobile.jpg" alt="beef image">
+          </picture>
+        </div>
+        <div class="highlights__item__description">
+          <p class="highlights__item__description__title"> Rosemary Filet Mignon</p>
+          <p class="highlights__item__description__para">
+            Our prime beef served to your taste with a delicious choice of seasonal
+            sides.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="highlights__item">
+        <div class="highlights__item__img">
+          <picture>
+            <source media="(min-width:42.37em)" srcset="./starter-code/images/homepage/chocolate-desktop-tablet.jpg">
+            <source media="(min-width:20em)" srcset="./starter-code/images/homepage/chocolate-mobile.jpg">
+            <img src="./starter-code/images/homepage/chocolate-mobile.jpg" alt="chocolate image">
+          </picture>
+        </div>
+        <div class="highlights__item__description">
+          <p class="highlights__item__description__title"> Summer Fruit Chocolate Mousse</p>
+          <p class="highlights__item__description__para">
+            Creamy mousse combined with summer fruits and dark chocolate shavings.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- slider block -->
+  <section class="gathering">
+    <div class="gathering-content">
+      
+      <div class="gathering-img-contents">
+
+        <div class="img-content active-img" id="img-family-gathering">
+          <picture>
+            <source media="(min-width:64em )" srcset="./starter-code/images/homepage/family-gathering-desktop.jpg" >
+            <source media="(min-width: 42.37em)" srcset = "starter-code/images/homepage/family-gathering-tablet.jpg">
+            <source media="(min-width: 20em)" srcset="./starter-code/images/homepage/family-gathering-mobile.jpg">
+            <img src="./starter-code/images/homepage/family-gathering-mobile.jpg" alt="Source Image">
+          </picture>
+        </div>
+
+        <div class="img-content" id="img-special-event">
+          <picture>
+            <source media="(min-width:64em )" srcset="./starter-code/images/homepage/special-events-desktop.jpg" >
+            <source media="(min-width: 42.37em)" srcset = "starter-code/images/homepage/special-events-tablet.jpg">
+            <source media="(min-width: 20em)" srcset="./starter-code/images/homepage/special-events-mobile.jpg">
+            <img src="./starter-code/images/homepage/special-events-mobile.jpg" alt="Source Image">
+          </picture>
+        </div>
+
+        <div class="img-content" id="img-social-event">
+          <picture>
+            <source media="(min-width:64em)" srcset="./starter-code/images/homepage/social-events-desktop.jpg" >
+            <source media="(min-width: 42.37em)" srcset = "starter-code/images/homepage/social-events-tablet.jpg">
+            <source media="(min-width: 20em)" srcset="./starter-code/images/homepage/social-events-mobile.jpg">
+            <img src="./starter-code/images/homepage/social-events-mobile.jpg" alt="Source Image">
+          </picture>
+        </div>
+
+      </div>
+
+      <div class="gathering-text-contents">
+
+        <div class="gathering-text-content active-content " id="family-gathering">
+          <p class="title">Family Gathering</p>
+          <p class = "context">We love catering for entire families.So please bring
+            everyone along for a special meal with your loved 
+            ones. We'll provide a memorable experience for all of you.
+          </p>
+          <form action="./starter-code/booking.html">
+            <button class="hero__content__description__button" type="submit">Book a table</button>
+          </form>
+        </div>
+
+
+        <div class="gathering-text-content" id="special-events">
+          <p class="title">Special Events</p>
+          <p class = "context">Wether it's a romantic dinner or a special date you’re 
+            celeberating with others we will look after you .We'll be 
+            sure to mark your special date with an unforgettable
+            meal.
+          </p>
+          <form action="./starter-code/booking.html">
+            <button class="hero__content__description__button" type="submit">Book a table</button>
+          </form>
+        </div>
+
+     
+
+        <div class="gathering-text-content" id="social-events">
+          <p class="title">Social Events</p>
+          <p class = "context">Are you looking to have an larger social event ? No
+            problem! We're more than happy to cater for big 
+            parties.We'll work with you to make your event a hit 
+            with everyone. 
+          </p>
+          <form action="./starter-code/booking.html">
+            <button class="hero__content__description__button" type="submit">Book a table</button>
+          </form>
+        </div>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="openTab('family-gathering','img-family-gathering')">FAMILY GATHERING</p>
+          <p class="tab-links" onclick="openTab('special-events','img-special-event')">SPECIAL EVENTS</p>
+          <p class="tab-links" onclick="openTab('social-events','img-social-event')">SOCIAL EVENTS</p>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+
+    
+  </section>
+
+  <!-- footer block -->
+  <footer class="footer">
+    <section class="footer__booking">
+      <div class="footer__booking__img">
+        <picture>
+          <source media="(min-width:64em)" srcset="./starter-code/images/homepage/ready-bg-desktop.jpg">
+          <source media="(min-width:42.37em)" srcset="./starter-code/images/homepage/ready-bg-tablet.jpg">
+          <source media="(min-width:20em)" srcset="./starter-code/images/homepage/ready-bg-mobile.jpg">
+          <img src="./starter-code/images/homepage/ready-bg-mobile.jpg" alt="place image">
+        </picture>
+      </div>
+      <div class="footer__booking__content">
+        <p class="footer__booking__content__title">Ready to make a reservation?</p>
+        <form action="./starter-code/booking.html">
+          <button type="submit" class="footer__booking__content__button">book a table</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact-container">
+        <div class="About">
+          <h2>About Dine</h2>
+          <p class="about-text">
+            Discover exquisite flavors and unforgettable dining experiences at Dine.We strive to provide
+            exceptional service and delectable dished to satisfy every palate.
+          </p>
+          <p class="address">
+            📍123 Main Street ,City,Country
+          </p>
+          <p class="mobile">
+            📞(123) 456-7890
+          </p>
+          <p class="mail">
+            ✉️info@dine.com
+          </p>
+        </div>
+
+        <div class="contact-form">
+          <form action="./starter-code/booking.html" >
+            <div class="theform">
+              <h1>Contact Us</h1>
+              <br>
+              <input type="text" placeholder="your name">
+              <br>
+              <input type="email" placeholder="your email">
+              <br>
+              <textarea name="message"  cols="30" rows="5" placeholder="your message"></textarea>
+              <br>
+              <button class="send">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="reservation">
+        ©Dine Restraunt.All rights reserved.
+      </div>
+    </section>
+  </footer>
+
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
