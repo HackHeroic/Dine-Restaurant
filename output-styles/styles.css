@@ -22,11 +22,7 @@ body {
   height: 100%;
 }
 
-/*
-    Typographic tweaks!
-    4. Add accessible line-height
-    5. Improve text rendering
-  */
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -852,10 +848,20 @@ body {
 .contact-container{
   display: flex;
   justify-content:space-around;
+  gap: 4rem;
 }
 
 .contact-container .About{
   width: 50%;
+}
+
+.About{
+  margin-top: 2rem;
+  line-height: 2rem;
+}
+
+.reservation{
+  text-align: center;
 }
 
 .send{
@@ -863,20 +869,55 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid;
+  border-radius: 4px;
+  color: white;
+}
+
+
+.contact-form{
+  margin-top: 2rem;
 }
 
 input::placeholder{
   color:white ;
-  opacity: 0.5;
-  width: fit-content;
 }
-input,textarea{
-  background-color:rgb(181,181,181) ;
+.theform input,textarea{
+  background-color:grey ;
   border: 1px solid black;
-  border-radius: 0.5px;
+  border-radius: 5px;
+  width: 25rem;
+  margin-bottom: 1rem;
 }
 
 textarea::placeholder{
   color: white;
-  opacity: 0.5;
+}
+
+@media (max-width:767px){
+  .contact-container{
+    display: inline;
+  }
+
+  .About{
+    text-align: left;
+    margin: 0rem auto;
+  }
+
+  .inputs {
+    text-align: center;
+  }
+  
+
+}
+
+@media(min-width: 768px) and (max-width: 1199px){
+  .contact-container{
+    display: inline;
+    text-align: center;
+  }
+
+  .About{
+    margin:0rem auto;
+  }
 }

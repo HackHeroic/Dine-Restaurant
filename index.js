@@ -21,3 +21,12 @@ function openTab(tabname,imgname){
   document.getElementById(imgname).classList.add('active-img')
 
 }
+
+
+let Send = document.querySelector('.send')
+Send.addEventListener('click',(e) => {
+  e.preventDefault;
+  alert("The form has been successfully submitted.")
+})
+
+
